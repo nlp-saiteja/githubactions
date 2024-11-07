@@ -28,4 +28,4 @@ jobs:
     # Step 4: Run tests using unittest
     - name: Run tests
       run: |
-        python -m unittest discover -s . -p "*_test.py"  # Adjust this path if necessary
+        python -m unittest discover -s . -p "test_*.py"  # Adjust this path if necessary
